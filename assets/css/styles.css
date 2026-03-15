@@ -146,6 +146,14 @@ img {
 
 /*=============== HEADER ===============*/
 
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: var(--z-fixed);
+  background: transparent;
+}
 
 /*=============== NAV ===============*/
 
