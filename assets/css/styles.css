@@ -485,6 +485,7 @@ img {
 
 .footer__link:hover{
   color: var(--white-color);
+  transition: .3s;
 }
 
 .footer__form {
@@ -498,8 +499,12 @@ img {
 
 .footer__input {
   background-color: var(--container-color);
-  width: 90%;
+  flex: 1;
   color: var(--white-color);
+}
+
+.footer__input:focus{
+  outline: none;
 }
 
 /*=============== SCROLL UP ===============*/
