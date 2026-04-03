@@ -774,4 +774,48 @@ img {
     grid-template-columns: .4fr .7fr .7fr 1fr;
   }
 }
+
 /* For large devices */
+@media screen and (min-width: 1024px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .home__img {
+    width: 300px;
+    top: -15rem;
+    left: 6rem;
+  }
+  .home__title {
+    top: -5rem;
+    left: 3.5rem;
+  }
+  .home__description {
+    padding-right: 5rem;
+  }
+
+  .sponsor__img {
+    width: 100px;
+  }
+
+  .specs__container {
+    column-gap: 20rem;
+    margin-bottom: calc(var(--mb-2-5) + 1.5rem);
+  }
+  .specs__img {
+    right: -3rem;
+  }
+
+  .case__container {
+    margin-bottom: -3rem;
+  }
+
+  .discount__img {
+    width: 350px;
+  }
+
+  .products__container {
+    margin-bottom: var(--mb-2-5);
+  }
+}
