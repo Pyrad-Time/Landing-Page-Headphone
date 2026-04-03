@@ -819,3 +819,9 @@ img {
     margin-bottom: var(--mb-2-5);
   }
 }
+
+.monkey__img {
+  margin-top: 3rem;
+  width: 320px;
+  height: 400px;
+}
